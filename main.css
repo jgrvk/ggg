@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(24, 12, 88);
+}
+footer{
+    background-color: rgb(33, 133, 151);height: 90px;border: 3px solid black;position: absolute;top: 84%;width: 99%;size: cover;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+ text-align: var(100px);
+ font-size: 15px;
+ border-radius: 10px;
+  
+}
+footer h1{
+    font-weight: bolder;position: absolute;top: 100px;
+    font-size: 13px;
+    font-display: flex;
+    text-align: center;
+    
+}
+nav{
+    border: 3px solid black;border-radius: 10px;
+    background-color: rgb(33, 133, 151); height: 70px;
+    flex: start;
+    list-style: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    
+}
+nav ul li{
+    margin: 5px;
+    color: white;
+    display: flex;
+    flex: start;
+    list-style: none;
+    padding: 0  px;
+    height: 50px;
+    text-align: center;
+}
+nav ul{
+    color: white;
+    display: flex;
+    flex: start;
+    list-style: none;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+}
+nav ul li a{
+    margin: 5px;
+    font-weight: bolder;
+    display: flex;
+    flex: start;
+    list-style: none;
+    /* text-decoration: none; */
+    padding: 18px;
+    color: black;
+    height: 50px;
+    text-align: center;
+}
+.search input{
+    width: 500px;
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 4px;
+    position: absolute;
+    top: 35px;
+    right: 140px;
+    margin: 5px;
+}
